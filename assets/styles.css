@@ -184,7 +184,7 @@ img {
 
   @media (width > 30rem) {
     padding-inline: 0;
-  padding-block-end: 0;
+    padding-block-end: 0;
   }
 }
 
@@ -237,6 +237,10 @@ img {
 
   li {
     padding-inline-start: var(--spacing-200);
+
+    &::marker {
+      font-weight: var(--fweight-bold);
+    }
   }
 }
 
@@ -245,7 +249,6 @@ table {
   border-collapse: collapse;
 
   tr {
-
     &:not(:last-child) {
       border-bottom: 1px solid var(--stone-150);
     }
@@ -256,15 +259,15 @@ table {
   }
 
   td {
-    padding-block: var(--spacing-100);
-padding-inline: 2rem;
+    padding-block: var(--spacing-150);
+    padding-inline: 2rem;
 
     &:first-child {
-        padding-inline-end: 0;
+      padding-inline-end: 0;
     }
 
     &:last-child {
-        padding-inline-start: 1rem;
+      padding-inline-start: 1rem;
       color: var(--brown-800);
     }
   }
