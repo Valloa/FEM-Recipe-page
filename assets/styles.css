@@ -88,7 +88,7 @@ body {
 
   @media (width > 30rem) {
     padding-inline: var(--spacing-300);
-    padding-block: 4.5rem;
+    padding-block: var(--spacing-1600);
   }
 }
 
