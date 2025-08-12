@@ -171,7 +171,7 @@ img {
   object-position: center;
 
   @media (width > 30rem) {
-    block-size: 20rem;
+    block-size: 18.75rem;
     border-radius: var(--spacing-150);
   }
 }
@@ -222,7 +222,7 @@ img {
 
 .Block {
   display: grid;
-  gap: var(--spacing-200);
+  gap: var(--spacing-300);
 
   h2 {
     color: var(--brown-800);
